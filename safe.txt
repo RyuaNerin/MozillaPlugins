@@ -1,0 +1,15 @@
+﻿tools.google.com.Google Update
+adobe.com/FlashPlayer
+divx.com/DivX VOD Helper
+java.com/DTPlugin
+java.com/javaPlugin
+microsoft.com/GENUINE
+microsoft.com/NpCtrl
+microsoft.com/OfficeAuthz
+adobe.com/FlashPlayer
+Apple.com/iTunes
+intel-webapi.intel.com/Intel WebAPI ipt
+intel-webapi.intel.com/Intel WebAPI updater
+nvidia.com/3DVision
+nvidia.com/3DVisionStreaming
+Adobe Reader
