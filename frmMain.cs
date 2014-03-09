@@ -40,7 +40,7 @@ namespace MozillaPlugins
 		{
 			try
 			{
-				string body = wc.DownloadString(url);
+				string body = wc.DownloadString(url).ToLower();
 				body = body.Replace("\r", "\n");
 				while (body.IndexOf("\n\n") >= 0)
 					body = body.Replace("\n\n", "\n");
@@ -124,7 +124,7 @@ namespace MozillaPlugins
 
 				foreach (string s in rocommend)
 				{
-					if (item.Text.StartsWith(s) || item.Text.StartsWith("@" + s))
+					if (item.Text.ToLower().StartsWith(s) || item.Text.ToLower().StartsWith("@" + s))
 					{
 						item.ForeColor = Color.Red;
 						break;
@@ -133,7 +133,7 @@ namespace MozillaPlugins
 
 				foreach (string s in safe)
 				{
-					if (item.Text.StartsWith(s) || item.Text.StartsWith("@" + s))
+					if (item.Text.ToLower().StartsWith(s) || item.Text.ToLower().StartsWith("@" + s))
 					{
 						item.ForeColor = Color.Blue;
 						break;

@@ -1,4 +1,4 @@
-﻿tools.google.com.Google Update
+﻿tools.google.com/Google Update
 adobe.com/FlashPlayer
 divx.com/DivX VOD Helper
 java.com/DTPlugin
